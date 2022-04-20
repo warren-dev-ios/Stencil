@@ -8,7 +8,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/kylef/PathKit.git", from: "0.9.0"),
-    .package(url: "https://github.com/kylef/Spectre.git", from: "0.9.0")
+    .package(url: "git@github.com:warren-dev-ios/Spectre.git", .branch("master"))
   ],
   targets: [
     .target(name: "Stencil", dependencies: [
