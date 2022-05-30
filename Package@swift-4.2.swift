@@ -7,8 +7,8 @@ let package = Package(
     .library(name: "Stencil", targets: ["Stencil"])
   ],
   dependencies: [
-    .package(url: "git@github.com:warren-dev-ios/PathKit.git", .branch("master")),
-    .package(url: "git@github.com:warren-dev-ios/Spectre.git", .branch("master"))
+    .package(url: "https://github.com/warren-dev-ios/PathKit.git", .branch("master")),
+    .package(url: "https://github.com/warren-dev-ios/Spectre.git", .branch("master"))
   ],
   targets: [
     .target(name: "Stencil", dependencies: [
